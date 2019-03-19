@@ -1,0 +1,51 @@
+.AdminMyAccount {
+  color : white;
+  padding: 0!important;
+  .alert-wrong-password-wrap {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    .alert-wrong-password {
+      position: fixed;
+      top: 0;
+      z-index: 999;
+    }
+  }
+  .alert-add-success-wrap {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    .alert-add-success {
+      position: fixed;
+      top: 0;
+      z-index: 999;
+    }
+  }
+  
+  
+  .btn_inscription {
+    margin-top: 50px;
+  }
+
+  .form_left_wrap {
+    padding: 5% 20% 5% 20%;
+    display: flex;
+    justify-content : center;
+
+    .register {
+      width: 100%;
+    }
+  }
+
+  .form_title{
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
+  .title-admin-my-account {
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+}

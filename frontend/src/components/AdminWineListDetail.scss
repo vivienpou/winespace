@@ -1,0 +1,82 @@
+@mixin borderColorWine($color) {
+  border-left: 25px solid $color;
+}
+
+.AdminWineListDetail {
+  padding: 2% 3% 2% 3% !important;
+
+  &:hover .cntnr-wl-dtl-adm .cntnr-txt-wl-dtl-adm .title-wl-dtl-adm {
+    text-decoration: none;
+  }
+
+  .wine-white-wl-dtl-adm {
+    @include borderColorWine(rgb(202, 202, 48));
+  }
+  .wine-red-wl-dtl-adm {
+    @include borderColorWine(rgb(158, 1, 1));
+  }
+  .wine-pink-wl-dtl-adm {
+    @include borderColorWine(rgb(187, 152, 157));
+  }
+
+  .cntnr-wl-dtl-adm {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 20px;
+    height: 200px;
+    padding: 5px;
+
+    .cntnr-img-wl-dtl-adm {
+      text-align: right;
+      padding: 0;
+  
+      .img-wl-dtl-adm {
+        height: 100%;
+      }
+    }
+
+    .cntnr-txt-wl-dtl-adm {
+      text-align: center;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: black !important;
+
+      .title-wl-dtl-adm {
+        text-align: center;
+      }
+
+      .list-txt-wl-dtl-adm {
+        list-style-type: none;
+        padding: 0;
+      }
+    }
+
+    .cntnr-btn-wl-dtl-adm {
+
+      .btn-wl-dtl-adm {
+        padding: 0 5px 0 5px;
+        position: absolute !important;
+        bottom: -7%;
+        border-radius: 20px; 
+      }
+      .btn-modify-wl-dtl-adm {
+        left: 10%;
+  
+        &:hover {
+          transition: 0.2s;
+          font-size: 1.2em;
+        }
+      }
+      .btn-delete-wl-dtl-adm {
+        right: 10%;
+  
+        &:hover {
+          transition: 0.2s;
+          font-size: 1.2em;
+        }
+      }
+    }
+  }
+}

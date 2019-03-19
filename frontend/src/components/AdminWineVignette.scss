@@ -1,0 +1,82 @@
+@mixin borderColorWine($color) {
+  border-left: 25px solid $color;
+}
+
+.admin-wine-vignette {
+  padding: 2% 3% 2% 3% !important;
+
+  &:hover .container-clw-adm .container-txt-clw-adm .title-clw-adm {
+    text-decoration: none;
+  }
+
+  .wine-white {
+    @include borderColorWine(rgb(202, 202, 48));
+  }
+  .wine-red {
+    @include borderColorWine(rgb(158, 1, 1));
+  }
+  .wine-pink {
+    @include borderColorWine(rgb(187, 152, 157));
+  }
+
+  .container-clw-adm {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 20px;
+    height: 200px;
+    padding: 5px;
+
+    .container-img-clw-adm {
+      text-align: right;
+      padding: 0;
+  
+      .img-clw-adm {
+        height: 100%;
+      }
+    }
+
+    .container-txt-clw-adm {
+      text-align: center;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: black !important;
+
+      .title-card-list-wine-admin {
+        text-align: center;
+      }
+
+      .list-txt-clw-adm {
+        list-style-type: none;
+        padding: 0;
+      }
+    }
+
+    .container-btn-clw-adm {
+
+      .btn-clw-adm {
+        padding: 0 5px 0 5px;
+        position: absolute !important;
+        bottom: -7%;
+        border-radius: 20px; 
+      }
+      .btn-modify-clw-adm {
+        left: 10%;
+  
+        &:hover {
+          transition: 0.2s;
+          font-size: 1.2em;
+        }
+      }
+      .btn-delete-clw-adm {
+        right: 10%;
+  
+        &:hover {
+          transition: 0.2s;
+          font-size: 1.2em;
+        }
+      }
+    }
+  }
+}

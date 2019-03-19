@@ -1,0 +1,52 @@
+.AdminWineDetail {
+  .Rouge {
+    background-image:url(/images/fond_vins_rouge.png);
+  }
+  .Blanc {
+    background-image:url(/images/fond_vins_blanc.jpg);
+  }
+  .Rose {
+    background-image:url(/images/fond_vins_roses.jpg);
+  }
+  .winePage {
+    padding-inline-end: 50px;
+    writing-mode: horizontal-tb;
+    display: flex;
+    align-items: center; 
+    font-family: arial;
+    color : white;
+
+    .button_black {
+      background-color:#191919;
+      color:white;
+      margin-left: 100px;
+      margin-bottom: 50px;
+    }
+
+    .button_black:hover {
+      color:white;
+    }
+    
+    .center {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .bigsize {
+      font-size: 60px;
+    }
+
+    .bold {
+      font-weight: bold;
+    }
+
+    .txt_justify {
+      text-align: justify;  
+    }
+    
+    .year {
+      display: none;
+    }
+  }
+}

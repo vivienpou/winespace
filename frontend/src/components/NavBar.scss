@@ -1,0 +1,38 @@
+.navbar_wrap {
+  background-color: #191919;
+  .logo_winespace {
+    width: 10vw;
+    position: relative;
+    left: 2vw;
+  }
+  .nvbadmin_button {
+    margin-left: 50px;
+  }
+  .navbar_text {
+    color: white!important;
+    text-decoration: none;
+  }
+  .navbar_text:hover {
+    background-color: #191919;
+    text-shadow: 0.5px 0.5px;
+    color: white;
+  }
+  .dropdownMenu {
+    background-color: #191919;
+    border: 2px solid white;
+    color: white;
+    .dropdownItem {
+      color: white;
+    }
+    .dropdownItem:hover {
+      color: white;
+      background-color: #191919;
+      text-shadow: 0.5px 0.5px;
+    }
+  }
+}
+
+
+
+
+

@@ -1,0 +1,27 @@
+.AdminWineHouse {
+  background-image:url(/images/fond_vins_rouge.png);
+  background-size: 100% 100%;
+  color : white;
+  padding: 0!important;
+
+  .container-dashboardAdmin {
+
+    .menu-dashboardAdmin {
+      background-color: rgba(0, 0, 0,0.7);
+
+      .item-menu-dashboardAdmin {
+        width: 100%;
+        border-radius: 0;
+        height: 80px;
+        font-size: 1.4em;
+        background-color: black;
+        border: none;
+        border-bottom: 3px solid #fff;
+
+        &:hover {
+          background-color: rgb(65, 65, 65);
+        }
+      }
+    }
+  }
+}

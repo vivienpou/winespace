@@ -1,0 +1,99 @@
+.AdminWineCreate{
+  font-family: 'Pacifico', Arial, Helvetica, sans-serif;
+
+  .WineCardAdminContainer {
+    writing-mode: horizontal-tb;
+    display: flex;
+    align-items: center; 
+    background-image: url('/images/fond_vins_rouge.png');
+    background-attachment: fixed;
+    font-family: arial;
+    color : white;
+    padding: 0 5% 0 5%;
+
+    .containerTitleRetourWineCardAdmin {
+      padding: 5% 0 5% 0;
+      width: 100%;
+      position: relative;
+      text-align: center;
+
+      .containerRetourWineCardAdmin {
+        position: absolute;
+        left: 5%;
+        top: 10%;
+      }
+  
+      .title-wine-card-admin {
+        display: inline;
+        font-weight: 100 !important;
+      }
+    }
+
+    .alertWineCardAdmin {
+      position: fixed;
+      top: 0;
+      left: 50%;
+      z-index: 999;
+    }
+
+    .black {
+      background-color:#191919;
+      color:white;
+      margin-bottom: 50px;
+      margin-top: 50px;
+    }
+
+    .formWineCardAdmin {
+      padding-left: 5%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+        
+        .labelAdmin {
+          font-size: 1.3em;
+        }
+  
+        .inputAdmin, .inputAdminTextWine {
+          background-color: transparent;
+          color:#bebebe;
+          border: none;
+          border-bottom: 2px solid #5d5d5d;
+          border-radius: unset;
+          font-size: 1.2em;
+          transition: border-bottom 0.5s, font-size 0.3s, height 0.3s;
+
+          .colorWineSelect {
+            color: black;
+          }
+        }
+  
+        .inputAdmin:focus, .inputAdminTextWine:focus {
+          box-shadow: none;
+          border-bottom: 4px solid #228a3a;
+          color: #fff;
+        }
+  
+        .inputAdmin:focus {
+          height: 45px;
+        }
+  
+        .bigsize {
+          font-size: 80px;
+  
+          .middlesize {
+            font-size: 50px;
+  
+            .bold {
+              font-weight: bold;
+            }
+          }
+        }
+
+        .wine-card-admin-btn-submit {
+          display: flex;
+          justify-content: center;
+          margin-bottom: 20px;
+        }
+      }
+    }
+  }

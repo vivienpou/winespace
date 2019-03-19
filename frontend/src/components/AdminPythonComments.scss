@@ -1,0 +1,148 @@
+.AdminPythonComments {
+  
+  .under-admin-python-comments {
+    height: 80vh;
+    overflow-y: scroll; 
+    overflow-x:0!important;
+
+    .card-admin-python-comments {
+      margin-top: 30px;
+      margin-bottom: 100px;
+      border: 3px solid rgb(255, 255, 255);
+      border-radius: 10px;
+      padding: 10px;
+      background-color: rgba(255, 255, 255, 0.7);
+      color: black;
+      overflow: hidden;
+
+      .title-card-admin-python-comments {
+        text-align: center;
+        font-size: 2.5rem;
+      }
+
+      .subtitle-card-admin-python-comments {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+
+      .para-com-admin-python-comments{
+        font-size: 1.2rem;
+
+        .com-admin-python-comments {
+          font-weight: bold;
+        }
+      }
+
+      .analyze-admin-python-comments {
+        text-align: center;
+
+        .notanalyzed {
+          background-color:rgb(226, 157, 157);
+          color:red;
+          padding: 5px;
+          border-radius: 1em;
+          font-weight:bold;
+        }
+      }
+
+      .container-analyze-admin-python-comments {
+
+        .words-analyze-admin-python-comments {
+          margin-top: 20px;
+          padding:0;
+          display: block;
+
+          .title-analyze-admin-python-comments {
+            font-weight: bold;
+            font-size: 1.2rem;
+
+          }
+
+          .word{
+            display:inline-block;
+            color:black;
+            border:1px solid black;
+            margin-right:2px;
+            padding:2px;
+            border-radius: 2px;
+            transition: all .2s ease-in-out;
+
+            &:hover{
+              display:inline-block;
+              color:black;
+              border:1px solid black;
+              margin-right:2px;
+              padding:2px;
+              border-radius: 1px;
+              transform: scale(1.1);
+            }
+
+            .word-weight {
+              font-weight: bold;
+            }
+          }
+          .blue {
+            background-color:rgb(100, 195, 224);
+          }
+          .orange {
+            background-color:rgb(255, 165, 0);
+            color: #fff;
+          }
+          .red {
+            background-color:rgb(236, 3, 3);
+            color: #fff;
+          }
+          .green {
+            background-color:rgb(1, 149, 1);
+          }
+          .yellow {
+            background-color:rgb(255, 255, 0);
+          }
+          .pink {
+            background-color:rgb(255, 159, 175);
+          }
+          .grey {
+            background-color:rgb(128, 128, 128);
+            color:  #fff;
+          }
+
+          .matching-analyze-admin-python-comment {
+            border-radius: 2px;
+            margin-top: 20px;
+            background-color: rgb(170, 131, 131);
+            padding:2px;
+
+            .tle-match-admin-python-comment {
+              width: 100%;
+              text-align: center;
+            }
+
+            .tle-table-admin-python-comment {
+              text-align: center;
+              margin-top: 20px;
+            }
+
+            .thead-admin-python-comment {
+              background-color: rgb(129, 99, 99);
+              text-align: center;
+
+              & th {
+                padding: 2px 2px 2px 2px;
+                vertical-align: middle;
+              }
+            }
+            .arom{
+              text-align: center;
+            }
+          }
+          .admin-aroma-notation{
+            padding:20px;
+          }
+          .modal-modify-aroms{
+            width:1600px!important;
+          }
+        }
+      }
+    }
+  }
+}

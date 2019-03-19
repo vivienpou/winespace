@@ -1,0 +1,122 @@
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('/Font/BebasNeue.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+.SignIn{
+  background-image: url("/images/backgroundLog.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  .form_left {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-right: 1px solid #e80041;
+      
+    .logo_winespace_pageone {
+      display: flex;
+      justify-content: center;
+      margin-top: 50px;
+      .logo_winespace {
+        width: 250px;
+        height: 80px;
+        
+      } 
+    }
+    .form_left_div {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 100%;
+
+      .connection{
+        font-family: 'Bebas Neue';
+        padding-top: 80px;
+        font-size: 1.1em;
+        letter-spacing: 2px;
+
+        .GroupConnectionPassword{
+
+          .formEmail{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .labelEmail{
+              color: white;
+              margin-right: 200px;
+            }
+            .inputEmail{
+              width: 300px;
+              letter-spacing: 1px;
+              font-family: 'Quicksand', Arial, sans-serif;
+            }
+          }
+          .formPassword{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .labelpassword{
+              color: white;
+              margin-right: 200px;
+            }
+            .inputPassword{
+              width: 300px;
+              font-family: 'Quicksand', Arial, sans-serif;
+            }
+          }
+          a{
+            display: flex;
+            justify-content: center;
+            color:#e80041;
+            margin-top: 3px;
+            margin-left: 200px;
+            font-size: 0.8em;
+            letter-spacing: 0px;
+            text-decoration: none;
+          }
+
+          a:hover{
+            font-weight: bold;
+          }
+        }
+        .group_button{
+          display: flex;
+          flex-direction: column;
+
+          .btn_inscription{
+            align-self: center;
+            letter-spacing: 2px;
+            color: white;
+            font-size: 1em;
+            text-decoration: none;
+          }
+
+          .btn_inscription:hover{
+            color: #e80041;
+            font-size:1.1em;
+            font-weight: bold;
+          }
+
+          .btn_connexion{
+            align-self: center;
+            letter-spacing: 2px;
+            color: white;
+            font-size: 1em;
+            width: 130px;
+            background-color:#e80041;
+          }
+
+          .btn_connexion:hover{
+            font-weight: bold;
+            font-size: 1em;
+            width: 130px;
+          }
+        }
+      }
+    }
+  }
+}

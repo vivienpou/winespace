@@ -1,0 +1,107 @@
+@font-face {
+  font-family: 'Bebas Neue';
+  src: url('/font/BebasNeue.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+} 
+    
+.SignUp {
+  background-image: url("/images/backgroundLog.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  .awp {
+    position: absolute !important;
+    z-index: 9999;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    background-color: #df313f;
+    color: #fff;
+    font-weight: 600;
+    border: none;
+  }
+  .form_left {
+    border-right: 1px solid #E80041;
+    background-color: rgba(0, 0, 0, 0.5);
+    .logo_winespace {
+      width: 18vw;
+      position: relative;
+      left: 10vw;
+      padding-top: 20px;
+    }
+    .form_left_wrap {
+      display: flex;
+      justify-content: center; 
+      .SignUpAll {
+        font-family: 'Bebas Neue';
+        padding-top: 25px;
+        .form_title {
+          color: #E80041;
+          padding-bottom: 10px;
+          display: flex;
+          justify-content: center;
+        }
+        .form_tags {
+          color: white;
+        }
+        .form_input {
+          width: 300px!important;
+          font-family: 'Quicksand', Arial, sans-serif;
+        }
+        .check {
+          padding-top: 5px;
+          color: white;
+        }
+        .group_button {
+          display: flex;
+          justify-content: center;
+          padding-top: 25px;
+          .btn_inscription {
+            width: 150px;
+            height: 50px;
+            font-size: 1.4em!important;
+          }
+        }
+        .btn_connexion{
+          display: flex;
+          justify-content: center;
+          letter-spacing: 2px;
+          color: white;
+          font-size: 1em;
+          text-decoration: none;
+          margin-top: 15px;
+        }
+        .btn_connexion:hover{
+          color: #e80041;
+          font-size:1.1em;
+          font-weight: bold;
+        } 
+      }
+    }  
+    .termes {
+      padding-left: 5vw;
+      padding-top: 40px;
+      color: white;
+      font-size: 0.8em;
+    }
+    .termes a {
+      color: red;
+    }
+  }
+}
+
+  
+
+
+
+
+
+
+
+
+
+
+

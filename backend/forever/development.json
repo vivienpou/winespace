@@ -1,0 +1,7 @@
+{
+  "uid": "winespace",
+  "append": true,
+  "watch": true,
+  "script": "start",
+  "sourceDir": "/home/staffbdx/Bureau/workspace/bordeaux-0918-js-winespace/backend/bin"
+}

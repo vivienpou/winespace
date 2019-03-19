@@ -1,0 +1,79 @@
+@mixin borderColorWine($color) {
+  border-left: 25px solid $color;
+}
+
+.WineListDetail {
+  padding: 2% 3% 2% 3% !important;
+
+  &:hover .container-wld .container-txt-wld .title-wld{
+    text-decoration: none;
+  }
+
+  .wine-white-wld {
+    @include borderColorWine(rgb(202, 202, 48));
+  }
+  .wine-red-wld {
+    @include borderColorWine(rgb(158, 1, 1));
+  }
+  .wine-pink-wld {
+    @include borderColorWine(rgb(187, 152, 157));
+  }
+
+  .container-wld {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 20px;
+    height: 200px;
+    padding: 5px;
+
+    .container-img-wld {
+      text-align: right;
+      padding: 0;
+  
+      .img-wld {
+        height: 100%;
+      }
+    }
+
+    .container-txt-wld {
+      text-align: center;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: black !important;
+
+      .title-wld {
+        text-align: center;
+      }
+
+      .list-txt-wld {
+        list-style-type: none;
+        padding: 0;
+      }
+
+      .btn-wld {
+        padding: 0 5px 0 5px;
+        position: absolute;
+        bottom: -7%;
+        border-radius: 20px; 
+      }
+      .btn-modify-wld {
+        left: 10%;
+
+        &:hover {
+          transition: 0.2s;
+          font-size: 1.2em;
+        }
+      }
+      .btn-delete-wld {
+        right: 10%;
+
+        &:hover {
+          transition: 0.2s;
+          font-size: 1.2em;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+.AdminUserTable {
+  .UnderTableAdmin {
+    background-color: rgb(0, 0, 0);opacity:0.8; 
+  }
+  .under-pressure{
+    background-color: rgb(0, 0, 0);opacity:0.8; 
+    text-align: center;
+    height:400px!important;
+    overflow-y: scroll!important;
+  }
+
+  h2 {
+    color:white;
+    font-family: 'Bebas Neue';
+    src: url('/font/BebasNeue.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: underline;
+    padding-top: 30px;
+    padding-bottom: 40px;
+  }
+
+  .head-table{
+    position:sticky;
+  }
+}
+.under-pressure{
+  background-color: rgb(247, 241, 241);opacity:0.8; 
+  text-align: center;
+  height:400px!important;
+  overflow-y: scroll!important;
+}

@@ -1,0 +1,29 @@
+.AdminAromaFr {
+
+  .alert-create-aroma-admin-fr {
+    position: fixed;
+    top: 20px;
+    z-index: 9999;
+    width: 50%;
+    text-align: center;
+  }
+
+  .container-table-aroma-admin-fr {
+    height: 400px;
+    overflow-y: scroll;
+    background-color: rgb(251, 253, 253);opacity:0.8;
+
+    .table-aroma-admin-fr {
+      text-align: center;
+      
+      
+      .head-table-aroma-admin-fr {
+        position: sticky;
+      }
+    }
+  }
+
+  .container-create-aroma-aroma-admin-fr {
+    padding: 5% 20% 5% 20%;
+  }
+}

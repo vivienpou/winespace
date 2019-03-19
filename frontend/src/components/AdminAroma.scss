@@ -1,0 +1,23 @@
+.AdminAroma {
+
+  .container-btn-lang-aroma-admin {
+    text-align: right;
+
+    .btn-lang-aroma-admin {
+      background: transparent;
+      padding: 0;
+      margin-left: 10px;
+      border: none;
+  
+      &:hover {
+        background: transparent;
+        border: none;
+      }
+  
+      .img-lang-aroma-admin {
+        width: 30px;
+        height: 30px;
+      }
+    }
+  }
+}
